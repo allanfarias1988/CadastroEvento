@@ -7,4 +7,4 @@
 - Se a data do evento for posterior à data atual, permitir o evento; senão, alertar que o cadastro não será permitido por data inválida.
 - Listar participantes e palestrantes por evento.
  
-- Link do Fluxograma: https://drive.google.com/file/d/103Zn-2shKOv8AiF7e_1dgE1fZZ1Lr9kp/view
+- Link do Fluxograma: https://drive.google.com/file/d/1eHRPqOwQFoBHf48T5deJBjO9mbBCFenC/view?usp=sharing
