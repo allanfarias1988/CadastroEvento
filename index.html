@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Sistema de cadastro de eventos" />
+        <title>Cadvento - Cadastro de Eventos</title>
+
+        <link rel="stylesheet" href="/styles/style.css" />
+        <script src="scripts/app-cadvento.js" defer></script>
+    </head>
+    <body>
+        <h1>CADVENTO - CADASTRO DE EVENTOS</h1>
+        <div id="cadastro">
+            <h3><p>Informe os seguintes dados para se cadastrar:</p></h3>
+            <p>Dados Pessoais:</p>
+            <input
+                type="text"
+                name="nome"
+                id="nome"
+                placeholder="Nome Completo"
+                size="30"
+            />
+            <p>Data de Nascimento:</p>
+            <p>
+                <input
+                    type="date"
+                    name="dataNasc"
+                    id="dataNasc"
+                    onchange="cadastro()"
+                />
+            </p>
+            <p>Selecione um evento:</p>
+            <select name="Escolha um Evento" id="selEvento">
+                <option value="EventoA" id="eventoA" onchange="cadastro()">
+                    Evento A
+                </option>
+                <option value="EventoB" id="eventoB">Evento B</option></select
+            ><br />
+            <p>
+                <input
+                    type="date"
+                    name="dataEvento"
+                    id="dataEvento"
+                    onchange="cadastro()"
+                />
+            </p>
+            <input type="submit" value="enviar" id="enviar" />
+        </div>
+    </body>
+</html>

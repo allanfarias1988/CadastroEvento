@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(0, 101, 141);
+}
+
+h1{
+    text-align: center;
+    color: darkorange;
+}
+h3{
+    text-align: center;
+}
+input#nome{
+    border-style: groove;
+    border-radius: 16px;
+    text-align: center;
+
+}
+div{
+    box-sizing: content-box;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20pt;
+    padding-left: 16pt;
+    padding-top: 04pt;
+    padding-right: 16pt;
+    padding-bottom: 16pt;
+}
