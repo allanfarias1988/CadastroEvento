@@ -12,6 +12,8 @@
             href="/senai/uc8/CadastroEvento/styles/style.css"
         />
         <script src="scripts/appCadvento.js" defer></script>
+        <link rel="stylesheet" href="/styles/style.css" />
+        <script src="scripts/app-cadvento.js" defer></script>
     </head>
     <body>
         <h1>CADVENTO - CADASTRO DE EVENTOS</h1>
@@ -32,6 +34,20 @@
             <select name="Escolha um Evento" id="selEvento">
                 <option value="EventoA">Evento A</option>
                 <option value="EventoB">Evento B</option></select
+            <p>
+                <input
+                    type="date"
+                    name="dataNasc"
+                    id="dataNasc"
+                    onchange="cadastro()"
+                />
+            </p>
+            <p>Selecione um evento:</p>
+            <select name="Escolha um Evento" id="selEvento">
+                <option value="EventoA" id="eventoA" onchange="cadastro()">
+                    Evento A
+                </option>
+                <option value="EventoB" id="eventoB">Evento B</option></select
             ><br />
             <p>
                 <input
@@ -41,6 +57,11 @@
                     onclick="dataEvento()"
                 />
             </p>
+
+                    onchange="cadastro()"
+                />
+            </p>
+            <input type="submit" value="enviar" id="enviar" />
         </div>
     </body>
 </html>
